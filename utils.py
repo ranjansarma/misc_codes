@@ -10,7 +10,7 @@
 from itertools import combinations
 import operator
 
-def calculate_rand_index(original_label_dict, predict_label_dict):
+def evaluate_cluster(original_label_dict, predict_label_dict):
     """
     @param original_label_dict: dictionary with keys as document_id and value as label
     @param predict_label_dict: dictionary with keys as document_id and value as label
