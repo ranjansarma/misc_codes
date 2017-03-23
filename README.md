@@ -9,6 +9,6 @@ Given the actual label and predicted label as dictionaries.
 This module calculates:
 * Precision
 * Recall
-* F-score
+* F1-score or F-measure
 * Jcquard Coefficient
 * Cluster Purity
